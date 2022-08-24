@@ -1,1 +1,2 @@
 # ser494-public
+This repository contains public source files for use in SER4/594 (Data Science for Software Engineers) at Arizona State University. This repository primarily stores sample source code used in the course.

@@ -39,9 +39,33 @@ if __name__ == '__main__':
 # END: sample code modified from https://realpython.com/java-vs-python/
 
 ################################################################################
+# looping structures
+print("==LOOPING STRUCTURES==")
+
+lst1 = [1, 2, 3, 4] # a list. to be discussed.
+
+for item in lst1:
+    print(item)
+
+for i in range(len(lst1)):
+    print(lst1[i])
+
+for item, i in enumerate(lst1):  # this is unpacking a "tuple" behind the scenes.
+    print(item, i)
+
+print("item:", item)  # "lovely" dynamic declaration
+
+i = 0
+while i < len(lst1):
+    print(lst1[i])
+    i += 1
+    # i++ #what happens with this?
+
+################################################################################
 # A DYNAMIC LANGUAGE
 ################################################################################
 
+################################################################################
 # dynamic typing
 print("==DYNAMIC TYPING==")
 lst_mixed = [10, "test", True, 5]

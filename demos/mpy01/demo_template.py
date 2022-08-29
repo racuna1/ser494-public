@@ -40,9 +40,18 @@ if __name__ == '__main__':
 # END: sample code modified from https://realpython.com/java-vs-python/
 
 ################################################################################
+# looping structures
+print("==LOOPING STRUCTURES==")
+
+lst1 = [1, 2, 3, 4] # a list. to be discussed.
+
+#TODO
+
+################################################################################
 # A DYNAMIC LANGUAGE
 ################################################################################
 
+################################################################################
 # dynamic typing
 print("==DYNAMIC TYPING==")
 lst_mixed = [10, "test", True, 5]

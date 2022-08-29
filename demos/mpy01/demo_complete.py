@@ -62,6 +62,32 @@ while i < len(lst1):
     # i++ #what happens with this?
 
 ################################################################################
+# Algorithm: Linear Search
+# new topics: booleans, break, pass, in
+
+def linear_search(target, collection):
+    found = False
+
+    for item in collection:
+        if item == target:
+            found = True
+            break
+        else:
+            pass  # don't actually write code like this.
+    return found
+
+
+def linear_search2(target, collection):
+    return target in collection
+
+
+lst1 = [1, 2, 3, 4]
+print(linear_search(3, lst1))
+print(linear_search(10, lst))
+print(linear_search2(3, lst1))
+print(linear_search2(10, lst1))
+
+################################################################################
 # random number generation
 # new topics: modules, as, docstring, randint, default args
 

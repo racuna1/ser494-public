@@ -3,10 +3,9 @@ from functools import reduce
 __author__      = "Ruben Acuna"
 __copyright__   = "Copyright 2022, Ruben Acuna"
 
-# this file contains an outline for the code demonstrations in the slides. it is
-# suggested that you load up this file at the start of lecture and then fill it
-# out as the lecture progresses. use it to play with the specific features we
-# discuss. this file is NOT graded.
+# this file contains all the code from the slides already typed in. it is
+# suggested that you use it as a reference and instead start by viewing
+# demo_template.py.
 
 
 # not part of class examples. don't do this at home.
@@ -47,10 +46,14 @@ if __name__ == '__main__':
 print("==DYNAMIC TYPING==")
 lst_mixed = [10, "test", True, 5]
 
+
 def func1(a, b):
     return a + b
 
-# TODO
+print(lst_mixed)
+print(func1(4, 5))
+print(func1("X", "Y"))
+
 
 ################################################################################
 # DATA STRUCTURES
@@ -61,36 +64,87 @@ def func1(a, b):
 print("==LISTS==")
 lst = list(["a", "b", "c"])
 
-# TODO
+# assorted operations as examples.
+lst.append("d")
+lst += ["e"]
+result = lst[4]
+lst2 = lst[:]
+lst3 = lst[::-1]
+test = [None] * 5
+
+print(len(lst))
+print(result)
+if "z" in lst:  # O(n)
+    print("found")
 
 ################################################################################
 # tuples
 print("==TUPLES==")
 tp = ("a", "b", "c")
 
-# TODO
+# assorted operations as examples.
+print(tp)
+print(tp[2])
+# tp[2] = 3 # what happens here?
 
 ################################################################################
 # list comprehension
 print("==LIST COMPREHENSION==")
 
 data1 = [3, 4, 1, 2, 6]
+data1a = [x * x for x in data1]
+data1b = [x * x for x in data1 if x % 2 == 0]
+data1c = [(x, x + 1) for x in data1]
+print(data1a)
+print(data1b)
+print(data1c)
 
-# TODO
+# doesn't really fit here but oh well.
+lst1 = [0] * 5
+print(lst1)
 
 ################################################################################
 # dictionary
 print("==DICTIONARY==")
 test = dict()
 
-# TODO
+# assorted operations as examples.
+test[240] = 5
+# test[lst] = 34 # what happens here?
+test[tp] = 34
+test[240] += 10
+
+print(test.keys())
+print(test[240])
+
+# slightly longer example
+freq = dict()
+
+for x in "CATACGCATGCAATACGG":
+    if x in freq:
+        freq[x] += 1
+    else:
+        freq[x] = 1
+
+print(freq)
 
 ################################################################################
 # sets (bonus: not mentioned in lecture)
 print("==SETS==")
 s = set(["a", "b"])
 
-# TODO
+# assorted operations as examples.
+s.add("a")
+s.add("c")
+s.remove("b")
+# union and intersection are also available.
+# x.union(y)
+# x.intersection(y)
+
+if "z" in s:  # O(1) :clapping:
+    print("found")
+
+print(s)
 
 ################################################################################
 # HIGHER ORDER PROGRAMMING
@@ -110,7 +164,8 @@ def second(x):
 
 scratch = [("Java", 0), ("LISP", 10), ("Python", 4), ("C", 3), ("JavaScript", 2)]
 
-# TODO
+print(sorted(scratch, key=first))
+print(sorted(scratch, key=second))
 
 ################################################################################
 # higher-order functions (pt2)
@@ -123,12 +178,17 @@ def inc_maker(inc):
     return tmp
 
 
-# TODO
+inc5 = inc_maker(5)
+inc10 = inc_maker(10)
+
+print(inc5(100))
+print(inc10(100))
 
 ################################################################################
 # anonymous functions
-
-# TODO
+print((lambda x: x * x * x)(3))
+cube = lambda x: x * x * x
+print(cube(3))
 
 ################################################################################
 # map/filter/reduce
@@ -151,7 +211,18 @@ def bigger(a, b):
 
 samples = [3, 4, 1, 2, 6]
 
-# TODO
+samples_a = list(map(lambda x: x * x, samples))
+samples_b = [x * x for x in samples]
+samples_c = [sq(x) for x in samples]
+
+samples_filtered_a = list(filter(lambda x: x % 2, samples))
+samples_filtered_b = [x for x in samples if x % 2]
+samples_filtered_c = [x for x in samples if odd(x)]
+
+largest = reduce(bigger, samples)
+
+mymax = lambda lt: reduce(bigger, lt)
+print(mymax(samples))
 
 ################################################################################
 # UNUSED

@@ -62,6 +62,30 @@ while i < len(lst1):
     # i++ #what happens with this?
 
 ################################################################################
+# random number generation
+# new topics: modules, as, docstring, randint, default args
+
+print("==RANDOM NUMBER GENERATION==")
+# the import should be at the very top.
+import random
+# import random as rand  #what does this do?
+
+def roll_dice(side, count, plus=0):
+    """
+    Simulates rolling a many sided die.
+    :param side: number of sides on die.
+    :param count: number of dice.
+    :param plus: number to add.
+    :return: the total number.
+    """
+    sum = 0
+    for j in range(count):
+        sum += random.randint(1, side)
+    return sum + plus
+
+print(roll_dice(20, 1))
+
+################################################################################
 # A DYNAMIC LANGUAGE
 ################################################################################
 

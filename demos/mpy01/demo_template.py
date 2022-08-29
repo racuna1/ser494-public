@@ -45,7 +45,18 @@ print("==LOOPING STRUCTURES==")
 
 lst1 = [1, 2, 3, 4] # a list. to be discussed.
 
-#TODO
+# TODO
+
+################################################################################
+# random number generation
+# new topics: modules, as, docstring, randint, default args
+
+print("==RANDOM NUMBER GENERATION==")
+# the import should be at the very top.
+import random
+# import random as rand  #what does this do?
+
+# TODO
 
 ################################################################################
 # A DYNAMIC LANGUAGE

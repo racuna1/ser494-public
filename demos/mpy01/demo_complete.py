@@ -89,7 +89,7 @@ print(linear_search2(10, lst1))
 
 ################################################################################
 # random number generation
-# new topics: modules, as, docstring, randint, default args
+# new topics: modules, as, comments, docstring, randint, default args
 
 print("==RANDOM NUMBER GENERATION==")
 # the import should be at the very top.

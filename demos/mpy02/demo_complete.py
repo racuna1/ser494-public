@@ -1,6 +1,7 @@
 __author__      = "Ruben Acuna"
 __copyright__   = "Copyright 2022, Ruben Acuna"
 
+
 ################################################################################
 # Instrumentation in Python
 import datetime
@@ -34,5 +35,29 @@ def display_info(id, data):
     print(data[id])
 """
 
+
 ################################################################################
-# Decorators
+# Decorators (#2)
+
+# a "decorator" function
+def logged(function):
+
+    def _decorator(*args):
+        print("Logged call:", function.__name__)
+        return function(*args)
+
+    return _decorator
+
+
+@logged
+def dec_plain_func3():
+    print("doing some stuff")
+
+
+@logged
+def dec_plain_func4(a, b):
+    print("doing more stuff:", str(a + b))
+
+
+dec_plain_func3()
+dec_plain_func4(40, 2)

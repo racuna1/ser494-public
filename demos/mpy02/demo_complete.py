@@ -1,9 +1,28 @@
 __author__      = "Ruben Acuna"
 __copyright__   = "Copyright 2022, Ruben Acuna"
 
+################################################################################
+# Pickle
+# new topics: pickle (dump, load), with, open, as
+import pickle
+
+proteins = {"1ASU": 162, "2MSI": 66, "7Q3V": 264}
+
+filename = "prot_len.pickle"
+with open(filename, "wb") as outfile:
+    pickle.dump(proteins, outfile)
+
+with open(filename, "rb") as infile:
+    prot_len_new = pickle.load(infile)
+
+print(str(proteins))
+print(str(prot_len_new))
+
 
 ################################################################################
 # Instrumentation in Python
+# new topics: datetime, f-strings, str
+
 import datetime
 
 
@@ -38,6 +57,7 @@ def display_info(id, data):
 
 ################################################################################
 # Decorators (#2)
+# new topics: @, *
 
 # a "decorator" function
 def logged(function):

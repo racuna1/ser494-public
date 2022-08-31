@@ -1,6 +1,10 @@
 __author__      = "Ruben Acuna"
 __copyright__   = "Copyright 2022, Ruben Acuna"
 
+# this file contains all the code from the slides already typed in. it is
+# suggested that you use it as a reference and instead start by viewing
+# demo_template.py.
+
 ################################################################################
 # Pickle
 # new topics: pickle (dump, load), with, open, as

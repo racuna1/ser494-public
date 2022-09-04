@@ -111,23 +111,6 @@ def roll_dice(side, count, plus=0):
 
 print(roll_dice(20, 1))
 
-################################################################################
-# A DYNAMIC LANGUAGE
-################################################################################
-
-################################################################################
-# dynamic typing
-print("==DYNAMIC TYPING==")
-lst_mixed = [10, "test", True, 5]
-
-
-def func1(a, b):
-    return a + b
-
-print(lst_mixed)
-print(func1(4, 5))
-print(func1("X", "Y"))
-
 
 ################################################################################
 # DATA STRUCTURES
@@ -143,6 +126,7 @@ lst.append("d")
 lst += ["e"]
 result = lst[4]
 lst2 = lst[:]
+lst2a = lst[0:2]
 lst3 = lst[::-1]
 test = [None] * 5
 
@@ -172,10 +156,6 @@ data1c = [(x, x + 1) for x in data1]
 print(data1a)
 print(data1b)
 print(data1c)
-
-# doesn't really fit here but oh well.
-lst1 = [0] * 5
-print(lst1)
 
 ################################################################################
 # dictionary
@@ -219,6 +199,26 @@ if "z" in s:  # O(1) :clapping:
     print("found")
 
 print(s)
+
+
+################################################################################
+# A DYNAMIC LANGUAGE
+################################################################################
+
+################################################################################
+# dynamic typing
+print("==DYNAMIC TYPING==")
+lst_mixed = [10, "test", True, 5]
+
+
+def func1(a, b):
+    return a + b
+
+print(lst_mixed)
+print(func1(4, 5))
+print(func1("X", "Y"))
+"A" + 5
+
 
 ################################################################################
 # HIGHER ORDER PROGRAMMING

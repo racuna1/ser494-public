@@ -18,6 +18,34 @@ proteins = {"1ASU": 162, "2MSI": 66, "7Q3V": 264}
 
 
 ################################################################################
+# CSV (table data)
+# new topics: next, str, float, strptime
+import csv
+import datetime
+filename_csv_nice = "format_example_csv_nice.csv"
+filename_csv = "format_example_csv.csv"
+
+with open(filename_csv_nice) as csvfile:
+    # TODO
+    pass
+
+with open(filename_csv) as csvfile:
+    # TODO
+    pass
+
+
+################################################################################
+# YAML (tree data)
+# new topics: yaml.load, loop on dict
+import yaml
+
+filename_yaml = "format_example_yaml.yml"
+with open(filename_yaml) as yamlfile:
+    # TODO
+    pass
+
+
+################################################################################
 # Instrumentation in Python
 # new topics: datetime, f-strings, str
 

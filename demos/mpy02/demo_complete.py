@@ -17,10 +17,58 @@ with open(filename, "wb") as outfile:
     pickle.dump(proteins, outfile)
 
 with open(filename, "rb") as infile:
-    prot_len_new = pickle.load(infile)
+    proteins_new = pickle.load(infile)
 
 print(str(proteins))
-print(str(prot_len_new))
+print(str(proteins_new))
+
+
+################################################################################
+# CSV (table data)
+# new topics: next, str, float, strptime
+import csv
+import datetime
+filename_csv_nice = "format_example_csv_nice.csv"
+filename_csv = "format_example_csv.csv"
+
+with open(filename_csv_nice) as csvfile:
+    reader = csv.DictReader(csvfile)
+
+    for row in reader:
+        print(row)
+        print(f"id: {str(row['id'])}")
+        print(f"attempt: {float(row['attempt'])}")
+
+        # '2022-09-04 11:00:00 UTC'
+        time = datetime.datetime.strptime(row['submitted'], "%Y-%m-%d %H:%M:%S %Z")
+        print(time)
+
+with open(filename_csv) as csvfile:
+    reader = csv.reader(csvfile)  # can't use DictReader since column titles not unique.
+
+    header = next(reader)
+    for i, title in enumerate(header):
+        print(i, title)
+
+    for row in reader:
+        print(row)
+
+
+################################################################################
+# YAML (tree data)
+# new topics: yaml.load, loop on dict
+import yaml
+
+filename_yaml = "format_example_yaml.yml"
+with open(filename_yaml) as yamlfile:
+    data = yaml.load(yamlfile, Loader=yaml.FullLoader)
+
+    for entry in data:  # data is a dict, this loops over its keys.
+        cur = data[entry]  # this dict has several keys, we'll just look at one.
+        print(cur[":submitters"])
+        print(cur[":submitters"][0][":name"])
+        print(cur[":submitters"][0][":sid"])
+        print(cur[":submitters"][0][":email"])
 
 
 ################################################################################

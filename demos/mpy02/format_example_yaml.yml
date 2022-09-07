@@ -1,0 +1,1312 @@
+---
+submission_132287215:
+  :submitters:
+  - :name: Ruben Acuna
+    :sid: '222334'
+    :email: racuna1@asu.edu
+  :created_at: 2022-09-07 07:48:05.947901000 Z
+  :score: 32.0
+  :status: processed
+  :results:
+    score: 
+    tests:
+    - name: 'equals() 1 [Hint: Null]'
+      tags: 
+      score: 0.5
+      number: '9.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'equals() 2 [Hint: Mismatched Types]'
+      tags: 
+      score: 0.5
+      number: '9.2'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'equals() 3 [Hint: Mismatched Dimensions]'
+      tags: 
+      score: 1.0
+      number: '9.3'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'equals() 4 [Hint: Same]'
+      tags: 
+      score: 1.0
+      number: '9.4'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'equals() 5 [Hint: Clones]'
+      tags: 
+      score: 1.0
+      number: '9.5'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'equals() 6 [Hint: Not Same]'
+      tags: 
+      score: 1.0
+      number: '9.6'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'getRows() 2 [Hint: Edge Case (0x0 matrix)]'
+      tags: 
+      score: 0.5
+      number: '3.2'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'plus() 1 [Hint: Basic Behavior (square matrices)]'
+      tags: 
+      score: 0.5
+      number: '6.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'plus() 2 [Hint: Basic Behavior + Immutability Check]'
+      tags: 
+      score: 1.0
+      number: '6.2'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'plus() 3 [Hint: Basic Behavior (rectangular matrices)]'
+      tags: 
+      score: 0.5
+      number: '6.3'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'plus() 4 [Hint: Exceptions (mismatched matrices)]'
+      tags: 
+      score: 0.5
+      number: '6.4'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'plus() 5 [Hint: Exceptions (null matrix)]'
+      tags: 
+      score: 0.5
+      number: '6.5'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'Constructor 1 [Hint: Basic Behavior (square data)]'
+      tags: 
+      score: 0.5
+      number: '1.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'Constructor 2 [Hint: Basic Behavior (rectangular data)]'
+      tags: 
+      score: 0.5
+      number: '1.2'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'Constructor 3 [Hint: Immutability Check]'
+      tags: 
+      score: 2.0
+      number: '1.3'
+      output: ''
+      status: 
+      max_score: 2.0
+      extra_data: 
+      visibility: visible
+    - name: 'Constructor 4 [Hint: Edge Case (0x0 matrix)]'
+      tags: 
+      score: 0.5
+      number: '1.4'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'Constructor 5 [Hint: Edge Case (null matrix)]'
+      tags: 
+      score: 0.5
+      number: '1.5'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'multiply() 1 [Hint: Basic Behavior (square matrices)]'
+      tags: 
+      score: 1.0
+      number: '8.1'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'multiply() 2 [Hint: Basic Behavior + Immutability Check]'
+      tags: 
+      score: 2.0
+      number: '8.2'
+      output: ''
+      status: 
+      max_score: 2.0
+      extra_data: 
+      visibility: visible
+    - name: 'multiply() 3 [Hint: Basic Behavior (rectangular matrices)]'
+      tags: 
+      score: 1.0
+      number: '8.3'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'multiply() 4 [Hint: Exceptions (incorrect shapes)]'
+      tags: 
+      score: 0.5
+      number: '8.4'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'multiply() 5 [Hint: Exceptions (null matrix)]'
+      tags: 
+      score: 0.5
+      number: '8.5'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'getRows() 1 [Hint: Basic Behavior (rectangular data)]'
+      tags: 
+      score: 0.5
+      number: '3.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'getColumns() 2 [Hint: Edge Case (0x0 matrix)]'
+      tags: 
+      score: 0.5
+      number: '4.2'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'getColumns() 1 [Hint: Basic Behavior (rectangular data)]'
+      tags: 
+      score: 0.5
+      number: '4.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'getElement() 1 [Hint: Basic Behavior (rectangular data)]'
+      tags: 
+      score: 1.0
+      number: '2.1'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'getElement() 2 [Hint: Immutability Check]'
+      tags: 
+      score: 1.0
+      number: '2.1'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'toString() 1 [Hint: Basic Behavior (square matrix)]'
+      tags: 
+      score: 1.0
+      number: '10.1'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'toString() 2 [Hint: Basic Behavior (square matrix)]'
+      tags: 
+      score: 2.0
+      number: '10.2'
+      output: ''
+      status: 
+      max_score: 2.0
+      extra_data: 
+      visibility: visible
+    - name: 'toString() 3 [Hint: Deep (all rows and columns checked)]'
+      tags: 
+      score: 1.0
+      number: '10.3'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'toString() 4 [Hint: Deep (rectangular; all rows and columns checked]'
+      tags: 
+      score: 1.0
+      number: '10.3'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'minus() 1 [Hint: Basic Behavior (square matrix)]'
+      tags: 
+      score: 0.5
+      number: '7.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'minus() 2 [Hint: Basic Behavior + Immutability Check]'
+      tags: 
+      score: 1.0
+      number: '7.2'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'minus() 3 [Hint: Basic Behavior (rectangular matrix)]'
+      tags: 
+      score: 0.5
+      number: '7.3'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'minus() 4 [Hint: Exceptions (mismatched matrices)]'
+      tags: 
+      score: 0.5
+      number: '7.4'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'minus() 5 [Hint: Exceptions (null matrix)]'
+      tags: 
+      score: 0.5
+      number: '7.5'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'scale() 1 [Hint: Basic Behavior (square matrix)]'
+      tags: 
+      score: 0.5
+      number: '5.1'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'scale() 2 [Hint: Basic Behavior + Immutability Check]'
+      tags: 
+      score: 1.0
+      number: '5.2'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    - name: 'scale() 3 [Hint: Basic Behavior 1 (rectangular data)]'
+      tags: 
+      score: 0.5
+      number: '5.3'
+      output: ''
+      status: 
+      max_score: 0.5
+      extra_data: 
+      visibility: visible
+    - name: 'scale() 4 [Hint: Basic Behavior 2 (rectangular data)]'
+      tags: 
+      score: 1.0
+      number: '5.4'
+      output: ''
+      status: 
+      max_score: 1.0
+      extra_data: 
+      visibility: visible
+    output: 
+    extra_data: 
+    visibility: 
+    leaderboard: []
+    execution_time: 27.0
+  :history:
+  - :submitters: []
+    :created_at: 2022-09-07 07:46:21.167770000 Z
+    :score: 0.0
+    :status: processed
+    :results:
+      score: 
+      tests:
+      - name: 'equals() 1 [Hint: Null]'
+        tags: 
+        score: 0.0
+        number: '9.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals1:408 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 2 [Hint: Mismatched Types]'
+        tags: 
+        score: 0.0
+        number: '9.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals2:416 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 3 [Hint: Mismatched Dimensions]'
+        tags: 
+        score: 0.0
+        number: '9.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals3:424 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 4 [Hint: Same]'
+        tags: 
+        score: 0.0
+        number: '9.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals4:433 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 5 [Hint: Clones]'
+        tags: 
+        score: 0.0
+        number: '9.5'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals5:442 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 6 [Hint: Not Same]'
+        tags: 
+        score: 0.0
+        number: '9.6'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testEquals6:452 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'getRows() 2 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.0
+        number: '3.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetRows2:140 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 1 [Hint: Basic Behavior (square matrices)]'
+        tags: 
+        score: 0.0
+        number: '6.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus1:219 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '6.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus2:228 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 3 [Hint: Basic Behavior (rectangular matrices)]'
+        tags: 
+        score: 0.0
+        number: '6.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus3:247 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 4 [Hint: Exceptions (mismatched matrices)]'
+        tags: 
+        score: 0.0
+        number: '6.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus4:260 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '6.5'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus5:271 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 1 [Hint: Basic Behavior (square data)]'
+        tags: 
+        score: 0.0
+        number: '1.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor1:65 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 2 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '1.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor2:75 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 3 [Hint: Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '1.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor3:86 (MatrixTest.java)
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 4 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.0
+        number: '1.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor4:97 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 5 [Hint: Edge Case (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '1.5'
+        output: |
+          Test Failed!
+          Constructor did not throw expected exception.: unexpected exception type thrown; expected:<java.lang.IllegalArgumentException> but was:<java.lang.UnsupportedOperationException>
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor5:103 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 1 [Hint: Basic Behavior (square matrices)]'
+        tags: 
+        score: 0.0
+        number: '8.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply1:345 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '8.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply2:354 (MatrixTest.java)
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 3 [Hint: Basic Behavior (rectangular matrices)]'
+        tags: 
+        score: 0.0
+        number: '8.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply3:373 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 4 [Hint: Exceptions (incorrect shapes)]'
+        tags: 
+        score: 0.0
+        number: '8.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply4:387 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '8.5'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply5:397 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getRows() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '3.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetRows:133 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getColumns() 2 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.0
+        number: '4.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetColumns2:157 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getColumns() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '4.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetColumns:150 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getElement() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '2.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetElement1:114 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'getElement() 2 [Hint: Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '2.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testGetElement2:122 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.0
+        number: '10.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testToString1:479 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 2 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.0
+        number: '10.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testToString2:487 (MatrixTest.java)
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 3 [Hint: Deep (all rows and columns checked)]'
+        tags: 
+        score: 0.0
+        number: '10.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testToString3:498 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 4 [Hint: Deep (rectangular; all rows and columns checked]'
+        tags: 
+        score: 0.0
+        number: '10.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testToString4:514 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.0
+        number: '7.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus1:282 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '7.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus2:291 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 3 [Hint: Basic Behavior (rectangular matrix)]'
+        tags: 
+        score: 0.0
+        number: '7.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus3:310 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 4 [Hint: Exceptions (mismatched matrices)]'
+        tags: 
+        score: 0.0
+        number: '7.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus4:323 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '7.5'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus5:334 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.0
+        number: '5.1'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testScale1:168 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '5.2'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testScale2:176 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 3 [Hint: Basic Behavior 1 (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '5.3'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testScale3:192 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 4 [Hint: Basic Behavior 2 (rectangular data)]'
+        tags: 
+        score: 0.0
+        number: '5.4'
+        output: |
+          Test Failed!
+              java.lang.UnsupportedOperationException: TODO!
+              at edu.ser222.m01_02.CompletedMatrix.<init>:15 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testScale4:204 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      output: 
+      extra_data: 
+      visibility: 
+      leaderboard: []
+      execution_time: 25.0
+    :id: 132287155
+  - :submitters: []
+    :created_at: 2022-09-07 07:47:17.267521000 Z
+    :score: 25.5
+    :status: processed
+    :results:
+      score: 
+      tests:
+      - name: 'equals() 1 [Hint: Null]'
+        tags: 
+        score: 0.5
+        number: '9.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 2 [Hint: Mismatched Types]'
+        tags: 
+        score: 0.5
+        number: '9.2'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 3 [Hint: Mismatched Dimensions]'
+        tags: 
+        score: 1.0
+        number: '9.3'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 4 [Hint: Same]'
+        tags: 
+        score: 1.0
+        number: '9.4'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 5 [Hint: Clones]'
+        tags: 
+        score: 1.0
+        number: '9.5'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'equals() 6 [Hint: Not Same]'
+        tags: 
+        score: 1.0
+        number: '9.6'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'getRows() 2 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.5
+        number: '3.2'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 1 [Hint: Basic Behavior (square matrices)]'
+        tags: 
+        score: 0.5
+        number: '6.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 1.0
+        number: '6.2'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 3 [Hint: Basic Behavior (rectangular matrices)]'
+        tags: 
+        score: 0.5
+        number: '6.3'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 4 [Hint: Exceptions (mismatched matrices)]'
+        tags: 
+        score: 0.0
+        number: '6.4'
+        output: |
+          Test Failed!
+          plus() did not throw expected exception.: expected java.lang.RuntimeException to be thrown, but nothing was thrown
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus4:263 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'plus() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '6.5'
+        output: |
+          Test Failed!
+          plus() did not throw expected exception.: unexpected exception type thrown; expected:<java.lang.IllegalArgumentException> but was:<java.lang.NullPointerException>
+              at edu.ser222.m01_02.tests.MatrixTest.testPlus5:272 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 1 [Hint: Basic Behavior (square data)]'
+        tags: 
+        score: 0.5
+        number: '1.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 2 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.5
+        number: '1.2'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 3 [Hint: Immutability Check]'
+        tags: 
+        score: 2.0
+        number: '1.3'
+        output: ''
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 4 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.5
+        number: '1.4'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'Constructor 5 [Hint: Edge Case (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '1.5'
+        output: |
+          Test Failed!
+          Constructor did not throw expected exception.: unexpected exception type thrown; expected:<java.lang.IllegalArgumentException> but was:<java.lang.NullPointerException>
+              at edu.ser222.m01_02.tests.MatrixTest.testConstructor5:103 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 1 [Hint: Basic Behavior (square matrices)]'
+        tags: 
+        score: 1.0
+        number: '8.1'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 0.0
+        number: '8.2'
+        output: |
+          Test Failed!
+          Found incorrect element in matrix at [0][0]. expected:<30> but was:<1>
+              at edu.ser222.m01_02.tests.MatrixTest.compareSameInternalMatrix:55 (MatrixTest.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply2:360 (MatrixTest.java)
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 3 [Hint: Basic Behavior (rectangular matrices)]'
+        tags: 
+        score: 0.0
+        number: '8.3'
+        output: |
+          Test Failed!
+              java.lang.RuntimeException: Dimensions do not match.
+              at edu.ser222.m01_02.CompletedMatrix.multiply:127 (CompletedMatrix.java)
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply3:376 (MatrixTest.java)
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 4 [Hint: Exceptions (incorrect shapes)]'
+        tags: 
+        score: 0.0
+        number: '8.4'
+        output: |
+          Test Failed!
+          multiply() did not throw expected exception.: expected java.lang.RuntimeException to be thrown, but nothing was thrown
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply4:390 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'multiply() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '8.5'
+        output: |
+          Test Failed!
+          multiply() did not throw expected exception.: unexpected exception type thrown; expected:<java.lang.IllegalArgumentException> but was:<java.lang.NullPointerException>
+              at edu.ser222.m01_02.tests.MatrixTest.testMultiply5:398 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getRows() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.5
+        number: '3.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getColumns() 2 [Hint: Edge Case (0x0 matrix)]'
+        tags: 
+        score: 0.5
+        number: '4.2'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getColumns() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 0.5
+        number: '4.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'getElement() 1 [Hint: Basic Behavior (rectangular data)]'
+        tags: 
+        score: 1.0
+        number: '2.1'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'getElement() 2 [Hint: Immutability Check]'
+        tags: 
+        score: 1.0
+        number: '2.1'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 1.0
+        number: '10.1'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 2 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 2.0
+        number: '10.2'
+        output: ''
+        status: 
+        max_score: 2.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 3 [Hint: Deep (all rows and columns checked)]'
+        tags: 
+        score: 1.0
+        number: '10.3'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'toString() 4 [Hint: Deep (rectangular; all rows and columns checked]'
+        tags: 
+        score: 1.0
+        number: '10.3'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.5
+        number: '7.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 1.0
+        number: '7.2'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 3 [Hint: Basic Behavior (rectangular matrix)]'
+        tags: 
+        score: 0.5
+        number: '7.3'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 4 [Hint: Exceptions (mismatched matrices)]'
+        tags: 
+        score: 0.0
+        number: '7.4'
+        output: |
+          Test Failed!
+          minus() did not throw expected exception.: expected java.lang.RuntimeException to be thrown, but nothing was thrown
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus4:326 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'minus() 5 [Hint: Exceptions (null matrix)]'
+        tags: 
+        score: 0.0
+        number: '7.5'
+        output: |
+          Test Failed!
+          minus() did not throw expected exception.: unexpected exception type thrown; expected:<java.lang.IllegalArgumentException> but was:<java.lang.NullPointerException>
+              at edu.ser222.m01_02.tests.MatrixTest.testMinus5:335 (MatrixTest.java)
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 1 [Hint: Basic Behavior (square matrix)]'
+        tags: 
+        score: 0.5
+        number: '5.1'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 2 [Hint: Basic Behavior + Immutability Check]'
+        tags: 
+        score: 1.0
+        number: '5.2'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 3 [Hint: Basic Behavior 1 (rectangular data)]'
+        tags: 
+        score: 0.5
+        number: '5.3'
+        output: ''
+        status: 
+        max_score: 0.5
+        extra_data: 
+        visibility: visible
+      - name: 'scale() 4 [Hint: Basic Behavior 2 (rectangular data)]'
+        tags: 
+        score: 1.0
+        number: '5.4'
+        output: ''
+        status: 
+        max_score: 1.0
+        extra_data: 
+        visibility: visible
+      output: 
+      extra_data: 
+      visibility: 
+      leaderboard: []
+      execution_time: 33.0
+    :id: 132287192

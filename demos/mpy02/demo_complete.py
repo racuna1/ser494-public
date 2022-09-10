@@ -36,7 +36,7 @@ with open(filename_csv_nice) as csvfile:
 
     for row in reader:
         print(row)
-        print(f"id: {str(row['id'])}")
+        print(f"id: {int(row['id'])}")
         print(f"attempt: {float(row['attempt'])}")
 
         # '2022-09-04 11:00:00 UTC'

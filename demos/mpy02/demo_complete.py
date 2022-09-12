@@ -133,3 +133,18 @@ def dec_plain_func4(a, b):
 
 dec_plain_func3()
 dec_plain_func4(40, 2)
+
+
+################################################################################
+# Executing External Processes
+# new topics: subprocess.run
+import subprocess
+process = subprocess.run(['dir'])  # subprocess.run is blocking
+
+process2 = subprocess.run(['ipconfig', '-all'], capture_output=True)
+
+print(process2.stdout.decode('UTF-8'))
+
+
+################################################################################
+# Exceptions

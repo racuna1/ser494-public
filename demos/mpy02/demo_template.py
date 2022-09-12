@@ -81,3 +81,15 @@ def logged(function):
 import subprocess
 
 # TODO
+
+
+################################################################################
+# Exceptions
+# new topics: try, except, ValueError, ZeroDivisionError, Exception
+
+data_raw = ["2", "4", "6", "ERR", "8", "0", None]
+data_clean = [None] * len(data_raw)
+
+for i in range(len(data_raw)):
+    # TODO
+    pass

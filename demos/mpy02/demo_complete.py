@@ -148,3 +148,21 @@ print(process2.stdout.decode('UTF-8'))
 
 ################################################################################
 # Exceptions
+# new topics: try, except, ValueError, ZeroDivisionError, Exception
+
+data_raw = ["2", "4", "6", "ERR", "8", "0", None]
+data_clean = [None] * len(data_raw)
+
+for i in range(len(data_raw)):
+    try:
+        value = int(data_raw[i])
+        data_clean[i] = 100 / value
+    except ValueError as e:
+        data_clean[i] = 0
+    except ZeroDivisionError as e:
+        data_clean[i] = 100
+    except Exception as e:  # default case
+        print(e)
+        raise e  # just for demo!
+
+    # if the exception doesn't hit a case, it is reraised.

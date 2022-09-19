@@ -75,8 +75,26 @@ fig.savefig("mpy03_demo_lineplot3.png")
 
 
 ################################################################################
-# TODO: multiple plot / multiple ax on same figure?
+# Multiple Plots
+# new topics: plt.subplots(nrows, ncols)
+# see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
+fig, ax = plt.subplots(2, 2)
+fig.suptitle('Multiple Plots', fontsize=20)
+ax[0, 0].plot(n, 2 * n ** 2 + 3, "--g")
+ax[1, 0].plot(n2, 2 * n2 ** 2 + 3, "cyan")
+ax[0, 1].plot(n2, 3 * n2 + 10, "*")
+ax[1, 1].plot(n, 2 * n ** 2 + 3, "--g", label="(40 samples)")
+ax[1, 1].plot(n2, 2 * n2 ** 2 + 3, "cyan", label=f"({len(n2)} samples)")
+
+for row in ax:
+    for col in row:
+        col.set(xlim=[0, 8], ylim=[0, 175])
+
+ax[1, 1].legend()
+
+fig.show()
+fig.savefig("mpy03_demo_multiples.png")
 
 ################################################################################
 # Scatter plot (two variables)
@@ -127,7 +145,6 @@ fig.savefig("mpy03_demo_scatterplot2.png")
 ################################################################################
 # TODO: bar chart
 
-################################################################################
 
 ################################################################################
 # Pie Chart

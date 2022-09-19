@@ -68,37 +68,27 @@ ax.legend()
 ax.text(1.75, 24, "intersection", fontstyle="italic", alpha=.5)
 fig.show()
 fig.savefig("mpy03_demo_lineplot3.png")
-exit()
 
-# FUTURE: manual axis ticks
+# FUTURE: manual axis ticks?
 # FUTURE: adding annotation?
 # FUTURE: color scale?
-# TODO: multiple plots
+
 
 ################################################################################
+# TODO: multiple plot / multiple ax on same figure?
 
-
-def sample_normal(mean, sigma, num):
-    return mean + sigma * np.random.randn(num)
-
-# TODO: np.random.randn
-# TODO: np.random.randint
-# TODO: multiple ax on same figure?
-
-# x = np.linspace(0, 2, 100)
-# blank -> simple data -> add axis stuff + fig size
-#fig, ax = plt.subplots(figsize=(5, 2.7), layout='constrained')
 
 ################################################################################
 # Scatter plot (two variables)
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html
-# new topics: ax.scatter (x,y)
+# new topics: np.random.randn, np.random.randint, ax.scatter (x,y)
 
-count = 100
+def sample_normal(mean, sigma, num):
+    return mean + sigma * np.random.randn(num)
 
-# visualizing two variables with a scatter plot
 
 # variables used for positioning in space.
+count = 100
 sp_a = np.random.randint(0, 50, count)
 sp_b = 2 * sp_a + sample_normal(0, 5, count)
 
@@ -132,3 +122,33 @@ fig.show()
 fig.savefig("mpy03_demo_scatterplot2.png")
 
 # FUTURE: color by classes?
+
+
+################################################################################
+# TODO: bar chart
+
+################################################################################
+
+################################################################################
+# Pie Chart
+# see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html
+# new topics: pie (*), axis
+
+# TODO: pie chart
+# top prog langs
+
+# data from https://spectrum.ieee.org/top-programming-languages-2022
+names = ["Python", "C", "C++", "C#", "Java", "LISP"]
+values = [100, 96.8, 88.58, 86.99, 70.22, .77]
+explode = (.1, 0, 0, 0, 0, 0)
+
+fig, ax = plt.subplots()
+ax.set(title='Top Programming Languages 2022 (IEEE)')
+ax.pie(values, explode=explode, labels=names, autopct='%.2f%%', startangle=90)  # shadow=True
+ax.axis('equal')
+fig.show()
+fig.savefig("mpy03_demo_piechart1.png")
+
+
+################################################################################
+# TODO: hist chart

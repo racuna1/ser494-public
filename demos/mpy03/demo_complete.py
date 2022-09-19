@@ -144,11 +144,24 @@ explode = (.1, 0, 0, 0, 0, 0)
 
 fig, ax = plt.subplots()
 ax.set(title='Top Programming Languages 2022 (IEEE)')
-ax.pie(values, explode=explode, labels=names, autopct='%.2f%%', startangle=90)  # shadow=True
+ax.pie(values, explode=explode, labels=names, autopct='%.2f%%', startangle=90)
+# could have used a shadow=True... but?
 ax.axis('equal')
 fig.show()
 fig.savefig("mpy03_demo_piechart1.png")
 
 
 ################################################################################
-# TODO: hist chart
+# Histogram
+# https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
+# new topics: hist (*), grid
+
+data = sample_normal(10, 1, 200)
+
+fig, ax = plt.subplots()
+ax.set(title='Samples from Normal Distribution with $\mu=10$ and $\sigma=1$',
+       ylabel='Probability', xlabel='Value')
+ax.hist(data, bins=10, density=True)  # bins=4
+# ax.grid(True)  # could have done this, but...?
+plt.show()
+fig.savefig("mpy03_demo_histogram1.png")

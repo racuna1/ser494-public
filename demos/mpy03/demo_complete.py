@@ -4,6 +4,9 @@ import numpy as np
 __author__      = "Ruben Acuna"
 __copyright__   = "Copyright 2022, Ruben Acuna"
 
+# this file contains all the code from the slides already typed in. it is
+# suggested that you use it as a reference and instead start by viewing
+# demo_template.py.
 
 ################################################################################
 # Blank Plot (two variables)
@@ -34,6 +37,7 @@ fig.savefig("mpy03_demo_lineplot1.png")
 ################################################################################
 # Line Plot (variants; show more data)
 # new topics: np.linspace, default interpolation, multiple plots, legend, dots
+
 n2 = np.linspace(0, 10, 5)
 
 fig, ax = plt.subplots()
@@ -125,8 +129,6 @@ fig.savefig("mpy03_demo_scatterplot1.png")
 # new topics: ax.scatter (... s, c)
 
 count = 100
-
-# visualizing four variables with a scatter plot
 
 # (new) variables encoded into "point" visualization.
 sp_c = sample_normal(0, 1, count)

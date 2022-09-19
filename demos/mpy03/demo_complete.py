@@ -71,30 +71,30 @@ fig.savefig("mpy03_demo_lineplot3.png")
 
 # FUTURE: manual axis ticks?
 # FUTURE: adding annotation?
-# FUTURE: color scale?
-
+# FUTURE: different scales?
 
 ################################################################################
 # Multiple Plots
 # new topics: plt.subplots(nrows, ncols)
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
-fig, ax = plt.subplots(2, 2)
+fig, axs = plt.subplots(2, 2)
 fig.suptitle('Multiple Plots', fontsize=20)
-ax[0, 0].plot(n, 2 * n ** 2 + 3, "--g")
-ax[1, 0].plot(n2, 2 * n2 ** 2 + 3, "cyan")
-ax[0, 1].plot(n2, 3 * n2 + 10, "*")
-ax[1, 1].plot(n, 2 * n ** 2 + 3, "--g", label="(40 samples)")
-ax[1, 1].plot(n2, 2 * n2 ** 2 + 3, "cyan", label=f"({len(n2)} samples)")
+axs[0, 0].plot(n, 2 * n ** 2 + 3, "--g")
+axs[1, 0].plot(n2, 2 * n2 ** 2 + 3, "cyan")
+axs[0, 1].plot(n2, 3 * n2 + 10, "*")
+axs[1, 1].plot(n, 2 * n ** 2 + 3, "--g", label="(40 samples)")
+axs[1, 1].plot(n2, 2 * n2 ** 2 + 3, "cyan", label=f"({len(n2)} samples)")
 
-for row in ax:
+for row in axs:
     for col in row:
         col.set(xlim=[0, 8], ylim=[0, 175])
 
-ax[1, 1].legend()
+axs[1, 1].legend()
 
 fig.show()
 fig.savefig("mpy03_demo_multiples.png")
+
 
 ################################################################################
 # Scatter plot (two variables)
@@ -117,7 +117,7 @@ ax.scatter(sp_a, sp_b)
 fig.show()
 fig.savefig("mpy03_demo_scatterplot1.png")
 
-# TODO: color scale?
+# FUTURE: color scale?
 
 ################################################################################
 # Scatter plot (four variables)
@@ -143,16 +143,25 @@ fig.savefig("mpy03_demo_scatterplot2.png")
 
 
 ################################################################################
-# TODO: bar chart
+# Bar Chart (Plot)
+# see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html
+# new topics: (bar)
+
+languages = ['Java', 'None', 'C', 'Multiple', "C#", "Python"]
+counts = [5, 1, 2, 2, 1, 2]
+
+fig, ax = plt.subplots()
+ax.set(title='Number of Times Languages Are Used in SER Courses',
+       ylabel='Count', xlabel='Language')
+ax.bar(languages, counts)
+fig.show()
+fig.savefig("mpy03_demo_scatterplot2.png")
 
 
 ################################################################################
 # Pie Chart
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html
 # new topics: pie (*), axis
-
-# TODO: pie chart
-# top prog langs
 
 # data from https://spectrum.ieee.org/top-programming-languages-2022
 names = ["Python", "C", "C++", "C#", "Java", "LISP"]
@@ -176,7 +185,7 @@ fig.savefig("mpy03_demo_piechart1.png")
 data = sample_normal(10, 1, 200)
 
 fig, ax = plt.subplots()
-ax.set(title='Samples from Normal Distribution with $\mu=10$ and $\sigma=1$',
+ax.set(title=r'Samples from Normal Distribution with $\mu=10$ and $\sigma=1$',
        ylabel='Probability', xlabel='Value')
 ax.hist(data, bins=10, density=True)  # bins=4
 # ax.grid(True)  # could have done this, but...?

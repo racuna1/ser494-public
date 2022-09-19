@@ -128,8 +128,6 @@ fig.savefig("mpy03_demo_scatterplot1.png")
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html
 # new topics: ax.scatter (... s, c)
 
-count = 100
-
 # (new) variables encoded into "point" visualization.
 sp_c = sample_normal(0, 1, count)
 sp_d = sample_normal(60, 20, count) + 30
@@ -147,9 +145,9 @@ fig.savefig("mpy03_demo_scatterplot2.png")
 ################################################################################
 # Bar Chart (Plot)
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html
-# new topics: (bar)
+# new topics: bar
 
-languages = ['Java', 'None', 'C', 'Multiple', "C#", "Python"]
+languages = ["Java", "None", "C", "Multiple", "C#", "Python"]
 counts = [5, 1, 2, 2, 1, 2]
 
 fig, ax = plt.subplots()
@@ -157,7 +155,7 @@ ax.set(title='Number of Times Languages Are Used in SER Courses',
        ylabel='Count', xlabel='Language')
 ax.bar(languages, counts)
 fig.show()
-fig.savefig("mpy03_demo_scatterplot2.png")
+fig.savefig("mpy03_demo_barchart.png")
 
 
 ################################################################################

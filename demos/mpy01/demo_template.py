@@ -24,6 +24,7 @@ print = mp
 # skipped. it can be moved to help you focus on the code as you work down.
 Here = True
 
+
 # START: sample code modified from https://realpython.com/java-vs-python/
 def parity(number):
     result = "odd"
@@ -43,13 +44,14 @@ if __name__ == '__main__':
 # looping structures
 print("==LOOPING STRUCTURES==")
 
-lst1 = [1, 2, 3, 4] # a list. to be discussed.
+lst1 = [1, 2, 3, 4]  # a list. to be discussed.
 
 # TODO
 
 ################################################################################
 # Algorithm: Linear Search
 # new topics: booleans, break, pass, in
+
 
 def linear_search(target, collection):
     found = False
@@ -64,9 +66,10 @@ def linear_search(target, collection):
 
 # TODO
 
+
 lst1 = [1, 2, 3, 4]
 print(linear_search(3, lst1))
-print(linear_search(10, lst))
+print(linear_search(10, lst1))
 
 ################################################################################
 # random number generation
@@ -87,6 +90,7 @@ import random
 # dynamic typing
 print("==DYNAMIC TYPING==")
 lst_mixed = [10, "test", True, 5]
+
 
 def func1(a, b):
     return a + b

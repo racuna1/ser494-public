@@ -23,6 +23,7 @@ print = mp
 # skipped. it can be moved to help you focus on the code as you work down.
 Here = True
 
+
 # START: sample code modified from https://realpython.com/java-vs-python/
 def parity(number):
     result = "odd"
@@ -42,7 +43,7 @@ if __name__ == '__main__':
 # looping structures
 print("==LOOPING STRUCTURES==")
 
-lst1 = [1, 2, 3, 4] # a list. to be discussed.
+lst1 = [1, 2, 3, 4]  # a list. to be discussed.
 
 for item in lst1:
     print(item)
@@ -64,6 +65,7 @@ while i < len(lst1):
 ################################################################################
 # Algorithm: Linear Search
 # new topics: booleans, break, pass, in
+
 
 def linear_search(target, collection):
     found = False
@@ -96,6 +98,7 @@ print("==RANDOM NUMBER GENERATION==")
 import random
 # import random as rand  #what does this do?
 
+
 def roll_dice(side, count, plus=0):
     """
     Simulates rolling a many sided die.
@@ -108,6 +111,7 @@ def roll_dice(side, count, plus=0):
     for j in range(count):
         sum += random.randint(1, side)
     return sum + plus
+
 
 print(roll_dice(20, 1))
 
@@ -213,6 +217,7 @@ lst_mixed = [10, "test", True, 5]
 
 def func1(a, b):
     return a + b
+
 
 print(lst_mixed)
 print(func1(4, 5))

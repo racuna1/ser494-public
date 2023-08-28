@@ -51,8 +51,8 @@ for item in lst1:
 for i in range(len(lst1)):
     print(lst1[i])
 
-for item, i in enumerate(lst1):  # this is unpacking a "tuple" behind the scenes.
-    print(item, i)
+for i, item in enumerate(lst1):  # this is unpacking a "tuple" behind the scenes.
+    print(i, item)
 
 print("item:", item)  # "lovely" dynamic declaration
 

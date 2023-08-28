@@ -80,7 +80,20 @@ print("==RANDOM NUMBER GENERATION==")
 import random
 # import random as rand  #what does this do?
 
-# TODO
+
+def roll_dice(side, count, plus=0):
+    """
+    Simulates rolling a many sided die.
+    :param side: number of sides on die.
+    :param count: number of dice.
+    :param plus: number to add.
+    :return: the total number.
+    """
+    # TODO
+    pass
+
+
+print(roll_dice(20, 1))
 
 ################################################################################
 # A DYNAMIC LANGUAGE
